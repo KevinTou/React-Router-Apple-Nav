@@ -1,0 +1,64 @@
+html,
+body {
+  font-family: "Helvetica", Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.product {
+  width: 130px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product p {
+  font-size: 0.7rem;
+}
+
+.product img {
+  height: 100%;
+  width: 100%;
+}
+
+.product.Mac.mini {
+  margin-top: -9px;
+}
